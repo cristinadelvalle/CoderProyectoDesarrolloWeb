@@ -1,0 +1,52 @@
+.herramientas{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon2{
+     display: flex;
+     width: 80px;
+     padding: 1rem;
+     margin: 37%;
+}
+.primera{
+    background-color: rgb(252, 255, 255);
+}
+.segunda{
+    background-color: rgb(252, 255, 255);
+}
+.tercera{
+    background-color: rgb(252, 255, 255);
+}
+
+.boton2{
+   background-color: white;
+   border: none;
+   color: orange;
+   margin-top: 10px;
+   
+   .boton2:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.trabajos{
+    display: flex;
+    justify-content: center;
+}
+.portafolio:hover{
+    background-color: aqua;
+}
+
+
+
