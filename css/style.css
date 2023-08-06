@@ -8,54 +8,23 @@ li {
   list-style-type: none;
 }
 
-a {
+a, p {
   text-decoration: none;
   font-size: small;
   color: rgb(95, 91, 91);
   font-family: Arial, Helvetica, sans-serif;
 }
-a a:hover {
+a a:hover, p a:hover {
   border-radius: 50%;
   color: orange;
   transition: 0.5s;
 }
 
-.texto-principal {
+h1, h2, h3 {
   font-family: sans-serif;
   font-weight: bold;
   color: rgb(255, 128, 0);
   padding: 1rem;
-  text-align: center;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-weight: bold;
-  color: rgb(255, 128, 0);
-  padding: 1rem;
-  text-align: center;
-}
-
-h2 {
-  font-family: sans-serif;
-  font-weight: bold;
-  color: rgb(255, 128, 0);
-  padding: 1rem;
-  text-align: center;
-}
-
-h3 {
-  font-family: sans-serif;
-  color: rgb(255, 145, 0);
-  padding: 1rem;
-  text-align: center;
-}
-
-p {
-  font-family: sans-serif;
-  color: rgb(70, 70, 70);
-  padding: 1rem;
-  font-size: small;
   text-align: center;
 }
 
@@ -66,8 +35,7 @@ img {
 .navbar-toggler {
   border: none;
 }
-
-.navbar-toggler:focus {
+.navbar-toggler .navbar-toggler:focus {
   box-shadow: none;
 }
 
@@ -132,14 +100,6 @@ li .selected::after,
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
-}
-
-p {
-  font-family: sans-serif;
-  color: rgb(102, 102, 102);
-  padding: 1rem;
-  font-size: small;
-  text-align: center;
 }
 
 .herramientas {

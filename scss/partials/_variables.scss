@@ -1,0 +1,13 @@
+@mixin titulos {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 128, 0);
+    padding: 1rem;
+    text-align: center;
+}
+@mixin textos-pequeños{
+    text-decoration: none;
+    font-size: small;
+    color: rgb(95, 91, 91);
+    font-family: Arial, Helvetica, sans-serif;
+}
