@@ -199,6 +199,10 @@ li .selected::after,
   border: solid 1px orange;
 }
 
+.icon-mail {
+  width: 200px;
+}
+
 .banner-grafico {
   background-image: url(../imagenes/bannergrafic.jpg);
   background-position: center;
