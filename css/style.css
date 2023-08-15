@@ -226,6 +226,11 @@ footer {
   align-items: center;
 }
 
+iframe {
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
 .formulario {
   display: flex;
   justify-content: center;

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  
 }
 
 li{
@@ -10,7 +11,7 @@ li{
 
 a, p{
     @include textos-pequeños;
-    a:hover{
+    a:hover{ 
     border-radius: 50%;
     color: orange;
     transition: 0.5s;
