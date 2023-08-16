@@ -156,6 +156,11 @@ li .selected::after,
   margin: 37%;
 }
 
+.sitio-web {
+  text-align: center;
+  padding: 0 200px;
+}
+
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -166,10 +171,6 @@ li .selected::after,
 .trabajos {
   display: flex;
   justify-content: center;
-}
-
-.maps:hover {
-  border: solid 1px orange;
 }
 
 .icon-mail {
