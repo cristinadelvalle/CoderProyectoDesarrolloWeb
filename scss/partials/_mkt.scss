@@ -1,14 +1,44 @@
-.banner-mkt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    border: solid 1px rgb(205, 205, 205);
+// .banner-mkt{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 50px;
+//     border: solid 1px rgb(205, 205, 205);
     
-}
-.maps:hover{
-    border: solid 1px orange;
-}
+// }
+
 .icon-mail{
     width: 200px;
+    display: flex;
+    justify-content: center;
 }
+.icon-goo{
+    width: 100%;
+}
+.mkt-email{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mkt-item{
+   background-color: rgb(241, 241, 241);
+   height: 220px;
+   margin: 2rem;
+   text-align: center;
+   width: 300px;
+   overflow: hidden;
+   min-height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .mybusiness{
+     display: flex;
+    justify-content: center;
+    
+    
+ }
+ .mybusiness img{
+    width: 300px;
+ }
