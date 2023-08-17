@@ -56,7 +56,6 @@ li .selected::after,
     flex-direction: column;
     align-items: center;
     
-    background-image: url(../imagenes/1.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 70vh;
@@ -96,4 +95,20 @@ li .selected::after,
               transform: translateZ(0);
       opacity: 1;
     }
+  }
+  .favicon{
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 136, 0)  solid .5px;
+    border-radius: 50%;
+  }
+  .cristina{
+    text-align: center;
+    font-family: helvetica;
+    font-style: italic;
+  }
+  strong{
+   
+    display: flex;
+    justify-content: center;
   }
